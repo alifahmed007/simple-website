@@ -1,0 +1,141 @@
+/* nav section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-h{
+    color: #FD6E0A;
+}
+.first-h3{
+    font-size: 2rem;
+}
+.first-nav a{
+    margin: 10px;
+    text-decoration: none;
+    color:#474747 ;
+}
+.first-btn{
+    background-color: #FD6E0A;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+}
+header{
+    background-color: #FFF8F3;
+}
+
+/* hero section */
+.hero{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.hero-big{
+    background-image:url(./images/developer.png),url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+    background-size: 90px , auto;
+    width: 1350px;
+    height: 839;
+}
+.head-p{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 3rem;
+}
+.first-name{
+    color: black;
+    font-size:70px;
+    font-weight:bolder;
+}
+.head-p2{
+    color: #474747;
+    font-size: large;
+}
+.head-btn{
+    background-color:#FD6E0A ;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    margin:10px;
+
+}
+
+/* main section */
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8F3;
+    height: 540px;
+    width: 1150px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.box-info{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container-2{
+    text-align: center;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+    
+}
+.box-model{
+    border: none;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+}
+
+/* Another section */
+
+.summary{
+    text-align: center;
+    margin: 40px;
+}
+.summary-1{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    gap: 30px;
+}
+.boxmodel{
+
+    border-bottom: 2px solid #d1d1d1;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* footer section */
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.in{
+    padding: 5px;
+    width: 300px;
+}
+
+
