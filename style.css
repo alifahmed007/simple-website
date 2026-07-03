@@ -167,3 +167,25 @@ header{
 }
 
 }
+@media screen and (min-width:577px) and (max-width:976px){
+    .hero-big{
+    background-image: none;
+    height: 100%;
+    width: 100%;
+}
+.hero-image{
+    height: 350px;
+    width: 300px;
+}
+.container{
+   height: 100%;
+    width: 100%; 
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+.footer-section{
+    flex-direction: column-reverse;
+}
+}
